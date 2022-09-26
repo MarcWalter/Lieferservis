@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Der Holländer Hamburg - Essen bestellen | Lieferando</title>
+
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="symbols.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+
+<body onload="renderCart()">
+    <div class="content">
+        <div>
+            <div class="header-div">
+                <div class="header">
+                    <div class="header-left pointer">
+                        <img class="arrow-back" src="img/arrow-204-48.png" alt="arrow back">
+                        <img class="logo-start" src="img/logo.png" alt="">
+                        <p class="lieferando-back"><b>Lieferando</b>.de</p>
+                    </div>
+                    <div class="header-center pointer">
+                        <p class="header-adress">Adenauerallee 78, 20097 Hamburg</p>
+                    </div>
+                    <div class="header-right pointer">
+                        <img class="german-logo" src="img/german.png" alt="">
+                        <img class="settings-logo" src="img/menu-4-64.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="left-bar">
+                    <div class="picture-head">
+                        <img src="img/201_snacks_6.avif" alt="Picture of food">
+                    </div>
+                    <div class="restaurant-header">
+                        <div class="restaurant-logo">
+                            <img src="img/logo_465x320.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="center">
+                        <div class="padding-lr-16">
+                            <div class="restaurant-title-div">
+                                <h1>Der Holländer</h1>
+                                <div class="info-favorite-div">
+                                    <img class="img-info pointer" src="img/info-2-32.png" alt="">
+                                    <img class="img-favorite pointer" onclick="changeLikeImage()" id="likeButton"
+                                        src="img/favorite-4-32.png" alt="">
+                                </div>
+                            </div>
+                            <div class="reviews-div">
+                                <img class="star" src="img/star-8-48.png" alt="">
+                                <img class="star" src="img/star-8-48.png" alt="">
+                                <img class="star" src="img/star-8-48.png" alt="">
+                                <img class="star" src="img/star-8-48.png" alt="">
+                                <img class="star" src="img/star-8-48-grey.png" alt="">
+                                <p class="reviews pointer">(168 Bewertungen)</p>
+                            </div>
+                            <div class="delivery-time">
+                                <img class="clock" src="img/clock-9-48.png" alt="">
+                                <p class="time">20-45 min</p>
+                            </div>
+                            <div>
+                                <p class="text">Bei diesem Restaurant kannst du Stempel sammeln. Stelle beim
+                                    Bestellabschluss bitte sicher, dass du dich für unseren Newsletter angemeldet hast,
+                                    um
+                                    deine Stempel per E-Mail zu erhalten.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-bar-div">
+                        <div class="nav-bar">
+                            <a class="nav-a" href="">
+                                <img src="img/search-12-48.png" alt="Search">
+                            </a>
+
+                            <a class="nav-a" href="#dishes1">
+                                <div class="nav-text text-center">Beliebte Gerichte</div>
+                            </a>
+                            <a class="nav-a" href="#dishes2">
+                                <div class="nav-text text-center">Holländische Spezialitäten</div>
+                            </a>
+                            <a class="nav-a" href="">
+                                <div class="nav-text text-center">Burger</div>
+                            </a>
+                            <a class="nav-a" href="">
+                                <div class="nav-text text-center">Veggie Gerichte</div>
+                            </a>
+                            <a class="nav-a" href="">
+                                <div class="nav-text text-center">Falafel Gerichte</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div id="dishesDiv" class="padding-lr-16 dishes">
+
+
+                        </div>
+                    </div>
+                </div>
+                <div id="rightBar" class="right-bar">
+                    <div class="text-center title-shopping-cart">
+                        Warenkorb
+                    </div>
+                    <div class="cart-item-line">
+
+                    </div>
+                    <div id="cart">
+
+                    </div>
+                    <div id="calculation">
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="footer-links">
+                    <div>Ein Restaurant empfehlen</div>
+                    <div>Ein Restaurant anmelden</div>
+                    <div>Jobs</div>
+                    <div>AGB</div>
+                    <div>Datenschutzerklärung</div>
+                    <div>Impressum</div>
+                    <div>Verwendung von Cookies</div>
+                    <div>Bug Bounty</div>
+                    <div>Ethik-Hotline</div>
+                </div>
+                <div>
+                    <p>© 2022 Lieferando.de</p>
+                </div>
+            </div>
+            <div id="btn-bottom" class="botton-bottom-div">
+
+            </div>
+</body>
+
+</html
